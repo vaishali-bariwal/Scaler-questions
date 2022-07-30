@@ -37,7 +37,7 @@ public class TestClass {
                     ch[i] = 1;
                     ch[left] = 1;
                     result++;
-                    System.out.println(i +" "+next+ " "+left);
+                    //System.out.println(i +" "+next+ " "+left);
                 }
                 else{
                     ch[i] = 1;
