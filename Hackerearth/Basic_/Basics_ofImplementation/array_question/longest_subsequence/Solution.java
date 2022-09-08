@@ -1,8 +1,6 @@
 package Hackerearth.Basic_.Basics_ofImplementation.array_question.longest_subsequence;
 import java.util.Arrays;
-
-// Java program to find the longest repeating
-// subsequence using recursion
+//recursion
 public class Solution {
 
 	static int dp[][] = new int[1000][1000];
@@ -46,5 +44,3 @@ public class Solution {
 
 	}
 }
-
-// This code is contributed by 29AjayKumar
