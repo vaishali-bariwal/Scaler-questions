@@ -1,5 +1,4 @@
-
-
+package Hackerearth.Basic_.Basics_ofImplementation.LL_add_one_number;
 class LinkedList {
     Node head; // head of list
    
@@ -64,36 +63,5 @@ class LinkedList {
      }
      System.out.println();
     }
-   
-    // Driver's code
-    public static void main(String args[])
-    {
-     LinkedList llist = new LinkedList();
-     /* Constructed Linked List is 1->2->3->4->5->null */
-     llist.push(5);
-     llist.push(4);
-     llist.push(3);
-     llist.push(2);
-     llist.push(1);
-   
-     System.out.println(
-      "Linked List before moving last to front ");
-     llist.printList();
-     
-     // Function call
-     llist.moveToFront();
-   
-     System.out.println(
-      "Linked List after moving last to front ");
-     llist.printList();
-    }
-   }
-   class Node {
-    int data;
-    Node next;
-    Node(int d)
-    {
-     data = d;
-     next = null;
-    }
+
    }
